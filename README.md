@@ -48,7 +48,7 @@ To Do Twitter Login
 ```
 TwitterLoginHelper.sharedInstance.doLoginWithTwitter { (isSuccess, error) in
             if isSuccess {
-               // Fetch Logged in User Details
+               // Fetch LoggedIn User's Details
             } else {
                 print(error?.localizedDescription ?? "")
                 TwitterLoginHelper.sharedInstance.logoutFromTwitter()
@@ -56,7 +56,7 @@ TwitterLoginHelper.sharedInstance.doLoginWithTwitter { (isSuccess, error) in
 }
 ```
 
-To Fetch Logged in UserData 
+To Fetch LoggedIn User's Details 
 
 ```
 TwitterLoginHelper.sharedInstance.getLoggedInUserDetailswith(completion: { (userData, error) in
