@@ -29,7 +29,7 @@ Import two files in your project and it's done
 
 # Usage example
 
-Add following in your application:didFinishLaunchingWithOptions launchOptions:
+**Add following in your application:didFinishLaunchingWithOptions launchOptions:
 
 ```  
  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -39,7 +39,7 @@ Add following in your application:didFinishLaunchingWithOptions launchOptions:
  }
 ```
 
-Add following in your application:openURL:options function
+**Add following in your application:openURL:options function**
 
 ```
   func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey: Any] = [:]) -> Bool {
@@ -49,7 +49,7 @@ Add following in your application:openURL:options function
 
 
 
-To Do Twitter Login
+**To Do Twitter Login**
 
 ```
 TwitterLoginHelper.sharedInstance.doLoginWithTwitter { (isSuccess, error) in
@@ -62,7 +62,7 @@ TwitterLoginHelper.sharedInstance.doLoginWithTwitter { (isSuccess, error) in
 }
 ```
 
-To Fetch LoggedIn User's Details 
+**To Fetch LoggedIn User's Details** 
 
 ```
 TwitterLoginHelper.sharedInstance.getLoggedInUserDetailswith(completion: { (userData, error) in
@@ -73,3 +73,9 @@ TwitterLoginHelper.sharedInstance.getLoggedInUserDetailswith(completion: { (user
             }
         })
 ```
+
+#  Contribute
+-   We would love you for the contribution to SSspinnerButton, check the LICENSE file for more info.
+ 
+#  Meta
+-    Distributed under the MIT license. See LICENSE for more information.
