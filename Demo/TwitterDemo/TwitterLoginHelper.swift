@@ -3,7 +3,7 @@
 //  Snax
 //
 //  Created by Darshit Vadodaria on 01/11/18.
-//  Copyright © 2018 Darshit Vadodaria. All rights reserved.
+//  Copyright © 2018 Simfrom Solutions. All rights reserved.
 //
 
 import Foundation

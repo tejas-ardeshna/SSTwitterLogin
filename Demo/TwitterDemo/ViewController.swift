@@ -3,15 +3,15 @@
 //  TwitterDemo
 //
 //  Created by Darshit Vadodaria on 02/11/18.
-//  Copyright © 2018 Darshit Vadodaria. All rights reserved.
+//  Copyright © 2018 Simfrom Solutions. All rights reserved.
 //
 
 import UIKit
 
 
 public struct TwitterKeys {
-    static let KConsumerKey = "uPCEqnJ83WCvYRtKR2FpZ09qW"
-    static let KConsumerSecret = "3iVJ666ycr6SqjYDacHfSGOK0bVqahJjhjjiysxychNW48VASm"
+    static let KConsumerKey = "YOUR_APP_CONSUMER_KEY"
+    static let KConsumerSecret = "YOUR_APP_CONSUMER_SECRET"
 }
 
 class ViewController: UIViewController {

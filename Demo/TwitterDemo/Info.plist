@@ -23,7 +23,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>twitterkit-uPCEqnJ83WCvYRtKR2FpZ09qW</string>
+				<string>twitterkit-YOUR_APP_CONSUMER_KEY</string>
 			</array>
 		</dict>
 	</array>

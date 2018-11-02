@@ -3,7 +3,7 @@
 //  TwitterDemo
 //
 //  Created by Darshit Vadodaria on 02/11/18.
-//  Copyright © 2018 Darshit Vadodaria. All rights reserved.
+//  Copyright © 2018 Simfrom Solutions. All rights reserved.
 //
 
 import Foundation
@@ -19,6 +19,11 @@ public struct TwitterURL {
     static let Logout = "https://api.twitter.com"
 }
 
+public enum ReadPermissions :String {
+    case includeEmail          =  "include_email"
+    case skipStatus            =  "skip_status"
+}
+
 public struct TwitterDefaultPermission {
-    public static let userPermission: [String: Any] = ["include_email": "true", "skip_status": "true"]
+    public static let userPermission: [String: Any] = [ReadPermissions.includeEmail.rawValue: "true", ReadPermissions.skipStatus.rawValue: "true"]
 }
